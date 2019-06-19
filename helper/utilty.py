@@ -15,7 +15,7 @@ import numpy as np
 import tensorflow as tf
 from PIL import Image
 from os.path import isfile, join
-from scipy import misc
+from cv2 import imread as misc
 
 from skimage.measure import compare_psnr, compare_ssim
 
